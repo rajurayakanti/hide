@@ -1,0 +1,9 @@
+<script>
+$(docuemnt).ready(function(){
+    $.ajax({url:"https://jsonplaceholder.typicode.com/todos",success:function(response){
+        for(y in response){
+            $("table").append("<tr><td>"+response[y].id+"</td><tr>"+)
+        }
+    }})
+})
+    </script>
